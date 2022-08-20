@@ -5,6 +5,7 @@
 - 📫 How to find me: 
     - :office: [LinkedIn](https://www.linkedin.com/in/pratap-kute)
 
+<a href="https://app.daily.dev/DailyDevTips"><img src="https://github.com/rebelchris/rebelchris/blob/master/devcard.svg" width="400" alt="Pratap kute's Dev Card"/></a>
 <!---
 Pratap-kute/Pratap-kute is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
