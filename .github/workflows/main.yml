@@ -19,3 +19,20 @@ jobs:
         uses: dailydotdev/action-devcard@2.0.2
         with:
           devcard_id: ${{ secrets.DEVCARD_ID }}
+
+  summary-cards:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Generate GitHub Profile Summary Cards
+        if: env.GITHUB_TOKEN != ''
+        uses: vn7n24fzkq/github-profile-summary-cards@release
+        env:
+          GITHUB_TOKEN: ${{ secrets.SUMMARY_GITHUB_TOKEN }}
+        with:
+          USERNAME: ${{ github.repository_owner }}
+          BRANCH_NAME: "main"
+          THEME: "radical"
+          NAME: "Pratap Kute"
+          EXCLUDE: "html"
+          TIME_ZONE: "Asia/Kolkata"
